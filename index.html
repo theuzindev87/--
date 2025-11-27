@@ -2,22 +2,24 @@
 <html lang="pt-br">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes">
   <title>Oliveira • Doces & Chocolate</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
-  <script src="script.js" defer></script>
   <meta name="description" content="Doces artesanais, brigadeiros e chocolates. Encomendas pelo WhatsApp.">
+  <meta name="theme-color" content="#D4145A">
   <meta property="og:title" content="Oliveira • Doces & Chocolate">
   <meta property="og:description" content="Brigadeiros, bolos e chocolates artesanais. Peça pelo WhatsApp.">
   <meta property="og:image" content="imgs/og-cover.jpg">
+  <script src="script.js" defer></script>
 </head>
 <body>
 <header class="topbar">
   <div class="wrap">
     <a class="brand" href="#home">
-      <img src="logo.jpg" alt="Logo Oliveira Doces" height="90">
+      <img src="logo.jpg" alt="Logo Oliveira Doces" height="90" loading="lazy">
     </a>
     <nav class="menu">
       <a href="#cardapio">Cardápio</a>
@@ -39,12 +41,12 @@
           <a href="#contato" class="btn btn-ghost">Pedir no WhatsApp</a>
         </div>
       </div>
-      <figure class="hero-photo floaty glow">
-        <img src="doce1.jpg" alt="Seleção de brigadeiros e chocolates artesanais">
+      <figure class="hero-photo floaty">
+        <img src="doce1.jpg" alt="Seleção de brigadeiros e chocolates artesanais" loading="lazy">
       </figure>
     </div>
     <svg class="wave" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true">
-      <path d="M0,64L80,74.7C160,85,320,107,480,106.7C640,107,800,85,960,69.3C1120,53,1280,43,1360,37.3L1440,32L1440,120L1360,120C1280,120,1120,120,960,120C800,120,640,120,480,120C320,120,160,120,80,120L0,120Z" fill="var(--cream)"/>
+      <path d="M0,64L80,74.7C160,85,320,107,480,106.7C640,107,800,85,960,69.3C1120,53,1280,43,1360,37.3L1440,32L1440,120L1360,120C1280,120,1120,120,960,120C800,120,640,120,480,120C320,120,160,120,80,120L0,120Z" fill="#fff9e6"/>
     </svg>
   </section>
 
@@ -59,117 +61,111 @@
       <div class="cards">
         <article class="card pop">
           <div class="cover">
-            <img src="doce de leite em quadrinho.jpg" alt="Doce de leite em quadrinho">
+            <img src="doce de leite em quadrinho.jpg" alt="Doce de leite em quadrinho" loading="lazy">
           </div>
           <div class="card-b">
             <h3>Doce de leite em quadrinho</h3>
             <p>Quadradinhos de doce de leite com textura perfeita e sabor caseiro.</p>
-            <div class="price">R$ 18,00</div>
+            <span class="price">R$ 18,00</span>
           </div>
         </article>
 
         <article class="card pop delay-1">
           <div class="cover">
-            <img src="brigadeiro gourmet.jpg" alt="Brigadeiro Gourmet">
+            <img src="brigadeiro gourmet.jpg" alt="Brigadeiro Gourmet" loading="lazy">
           </div>
           <div class="card-b">
             <h3>Brigadeiro Gourmet</h3>
             <p>Textura suave e sabor caseiro.</p>
-            <div class="price">R$ 23,00</div>
+            <span class="price">R$ 23,00</span>
           </div>
         </article>
 
         <article class="card pop delay-2">
           <div class="cover">
-            <img src="bombom de amendoin.jpg" alt="Bombom de amendoim">
+            <img src="bombom de amendoin.jpg" alt="Bombom de amendoim" loading="lazy">
           </div>
           <div class="card-b">
             <h3>Bombom de amendoim</h3>
             <p>Doce, crocante e feito com amendoins selecionados.</p>
-            <div class="price">R$ 2,00/un</div>
+            <span class="price">R$ 2,00/un</span>
           </div>
         </article>
 
         <article class="card pop delay-3">
           <div class="cover">
-            <img src="bombom prestigio.jpg" alt="Bombom prestígio">
+            <img src="bombom prestigio.jpg" alt="Bombom prestígio" loading="lazy">
           </div>
           <div class="card-b">
             <h3>Bombom Prestígio</h3>
             <p>Sabor tropical de coco com cobertura de chocolate.</p>
-            <div class="price">R$ 20,00/kg</div>
+            <span class="price">R$ 20,00/kg</span>
           </div>
         </article>
 
         <article class="card pop delay-4">
           <div class="cover">
-            <img src="doce de leite com a mendoim.jpg" alt="Doce de leite com amendoim">
+            <img src="doce de leite com a mendoim.jpg" alt="Doce de leite com amendoim" loading="lazy">
           </div>
           <div class="card-b">
             <h3>Doce de leite com amendoim</h3>
             <p>Uma mistura deliciosa de doce de leite e amendoim selecionado.</p>
-            <div class="price">R$ 18,00</div>
+            <span class="price">R$ 18,00</span>
           </div>
         </article>
 
         <article class="card pop delay-5">
           <div class="cover">
-            <img src="pé de moleque tradicional.jpg" alt="Pé de moleque tradicional">
+            <img src="pé de moleque tradicional.jpg" alt="Pé de moleque tradicional" loading="lazy">
           </div>
           <div class="card-b">
             <h3>Pé de moleque tradicional</h3>
             <p>Doce crocante de amendoim com textura artesanal.</p>
-            <div class="price">R$ 22,00/kg</div>
+            <span class="price">R$ 22,00/kg</span>
           </div>
         </article>
 
         <article class="card pop delay-6">
           <div class="cover">
-            <img src="tijolao de amendoim.jpg" alt="Tijolão de amendoim">
+            <img src="tijolao de amendoim.jpg" alt="Tijolão de amendoim" loading="lazy">
           </div>
           <div class="card-b">
             <h3>Tijolão de amendoim</h3>
             <p>Crocante, doce e irresistível.</p>
-            <div class="price">R$ 2,00/un — R$ 21,00/kg</div>
+            <span class="price">R$ 2,00/un — R$ 21,00/kg</span>
           </div>
         </article>
 
         <article class="card pop delay-7">
           <div class="cover">
-            <img src="alfajo.jpg" alt="Alfajor">
+            <img src="alfajo.jpg" alt="Alfajor" loading="lazy">
           </div>
           <div class="card-b">
             <h3>Alfajor</h3>
             <p>Recheio generoso e cobertura que derrete na boca.</p>
-            <div class="price">R$ 4,00/un</div>
+            <span class="price">R$ 4,00/un</span>
           </div>
         </article>
 
         <article class="card pop delay-8">
           <div class="cover">
-            <img src="doce de leite.jpg" alt="Doce de leite">
+            <img src="doce de leite.jpg" alt="Doce de leite" loading="lazy">
           </div>
           <div class="card-b">
             <h3>Doce de leite</h3>
             <p>Cremoso, fresquinho e perfeito para qualquer momento.</p>
-            <div class="price">
-              <span>R$ 5,00 (P)</span><br>
-              <span>R$ 8,00 (M)</span>
-            </div>
+            <span class="price">R$ 5,00 (P) / R$ 8,00 (M)</span>
           </div>
         </article>
 
         <article class="card pop delay-9">
           <div class="cover">
-            <img src="doce de leite com coco.jpg" alt="Doce de leite com coco">
+            <img src="doce de leite com coco.jpg" alt="Doce de leite com coco" loading="lazy">
           </div>
           <div class="card-b">
             <h3>Doce de leite com coco</h3>
             <p>Combinação perfeita do doce de leite com o toque do coco.</p>
-            <div class="price">
-              <span>R$ 5,00 (P)</span><br>
-              <span>R$ 8,00 (M)</span>
-            </div>
+            <span class="price">R$ 5,00 (P) / R$ 8,00 (M)</span>
           </div>
         </article>
       </div>
@@ -181,7 +177,7 @@
   <!-- SOBRE -->
   <section id="sobre" class="section">
     <div class="wrap about">
-      <img class="about-img pop" src="logo.jpg" alt="Logo Oliveira Doces">
+      <img class="about-img pop" src="logo.jpg" alt="Logo Oliveira Doces" loading="lazy">
       <div class="about-text">
         <h2 class="reveal-up">Feitos para celebrar</h2>
         <p class="reveal-up delay-1">Produção pequena, ingredientes de qualidade e acabamento caprichado para presentes, kits e festas.</p>
@@ -199,10 +195,10 @@
     <div class="wrap">
       <h2 class="reveal-up">Fale com nossa equipe</h2>
       <div class="contact reveal-up delay-1">
-        <a class="btn btn-solid pulse" href="https://wa.me/5533936180612" target="_blank" rel="noopener" aria-label="Conversar no WhatsApp">
+        <a class="btn btn-solid pulse" href="https://wa.me/5533936180612" target="_blank" rel="noopener noreferrer">
           WhatsApp
         </a>
-        <a class="btn btn-ghost wobble" href="https://www.instagram.com/doces_e_derivados_oliveira" target="_blank" rel="noopener" aria-label="Abrir Instagram da Oliveira">
+        <a class="btn btn-ghost wobble" href="https://www.instagram.com/doces_e_derivados_oliveira" target="_blank" rel="noopener noreferrer">
           Instagram
         </a>
       </div>
@@ -214,7 +210,7 @@
 <footer class="footer">
   <div class="wrap footer-grid">
     <div class="f-brand">
-      <img src="logo.jpg" alt="Oliveira Doces" height="100">
+      <img src="logo.jpg" alt="Oliveira Doces" height="100" loading="lazy">
       <p>Doces artesanais e derivados de chocolate.</p>
     </div>
     <p>© 2025 Oliveira Doces. Todos os direitos reservados.</p>
